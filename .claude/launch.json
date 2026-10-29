@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "lumine-site",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "site", "run", "dev"],
+      "port": 3001
+    },
+    {
+      "name": "prototipo-visual",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["Consultorio-consult-rio-de-est-tica/consultorio-estetico-main (1)/consultorio-estetico-main/node_modules/next/dist/bin/next", "dev", "Consultorio-consult-rio-de-est-tica/consultorio-estetico-main (1)/consultorio-estetico-main"],
+      "port": 3000
+    }
+  ]
+}
